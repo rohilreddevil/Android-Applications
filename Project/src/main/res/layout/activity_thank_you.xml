@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgreen"
+    tools:context=".thankYou">
+
+    <TextView
+        android:id="@+id/headerTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:paddingTop="10dp"
+        android:layout_alignStart="@id/thankYou"
+        android:text="Order Confirmation"
+        android:textColor="@color/colorBlack"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="76dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="11dp"
+        android:contentDescription="@string/cutlery_icon"
+        android:src="@drawable/ic_action_name" />
+
+    <TextView
+        android:id="@+id/thankYou"
+        android:layout_width="349dp"
+        android:layout_height="212dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="-121dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/confirmation"
+        android:textColor="@color/green"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button_border"
+        android:text="@string/logout"
+        android:textColor="@color/colorBlack"
+        android:onClick="logout"
+        android:textSize="24sp"
+        android:fontFamily="monospace"/>
+
+</RelativeLayout>

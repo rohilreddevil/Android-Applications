@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="76dp"
+        android:layout_height="75dp"
+        android:layout_alignEnd="@id/userNameEditText"
+        android:layout_marginEnd="11dp"
+        android:contentDescription="@string/cutlery_icon"
+        android:src="@drawable/ic_action_name"
+        />
+
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="10dp"
+        android:text="@string/header_text"
+        android:textSize="32sp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/userNameEditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headerTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="19dp"
+        android:hint="@string/username_hint"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userNameEditText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="15dp"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginTop="98dp"
+        android:background="@drawable/button_border"
+        android:text="@string/button_text"
+        android:textColor="@color/colorBlack"
+        android:onClick="displayMenu"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:id="@+id/errorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginButton"
+        android:layout_marginTop="30dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorRed"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/userNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/headerTextView"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="135dp"
+        android:text="@string/username_text"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/passwordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/headerTextView"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="265dp"
+        android:text="@string/password_text"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

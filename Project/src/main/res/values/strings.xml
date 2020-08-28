@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Food Rush</string>
+    <string name="header_text">Login - Food Rush</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="button_text">Time to Eat!!</string>
+    <string name="error_text">Invalid login credentials. Number of attempts left: </string>
+    <string name="lock_message">You have been locked out!!!!</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="cutlery_icon">cutlery</string>
+    <string name="menu_text">Our Menu!!!</string>
+    <string name="order_button">Done!!</string>
+    <string name="pad_thai_text">Pad Thai - 10$</string>
+    <string name="pad_thai_add">Add</string>
+    <string name="pad_thai_combo">With Drink</string>
+    <string name="burger_text">Burger - 12$</string>
+    <string name="burger_add">Add</string>
+    <string name="burger_combo">With Fries</string>
+    <string name="pizza_text">Pizza -  15$</string>
+    <string name="pizza_add">Add</string>
+    <string name="fries_text">Fries -  3$</string>
+    <string name="fries_add">Add</string>
+    <string name="soda_text">Soda - 2$</string>
+    <string name="soda_add">Add</string>
+    <string name="checkout_text">Checkout!!</string>
+    <string name="payment_detail">**Payment can be made in person at the time of delivery</string>
+    <string name="total_amount">Total $ =</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="confirmation">Thank you!! your order has been placed!!</string>
+    <string name="items_message">items displayed here</string>
+    <string name="display_total">total goes here</string>
+    <string name="quantity">total quantity of items</string>
+    <string name="order_success">Success!!</string>
+    <string name="back_button_text">Back</string>
+    <string name="your_order">Your Order</string>
+    <string name="qty">Cumulative Quantity</string>
+    <string name="logout">Logout</string>
+    <string name="reset_button">Reset</string>
+    <string name="deliver_fee">**Orders include a 2$ delivery fee</string>
+    <string name="empty_cart">Uh oh! Your cart cannot be empty!! Attempts remaining: </string>
+</resources>
