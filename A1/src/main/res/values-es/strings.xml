@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contador de grabadora</string>
+    <string name="button_text">Haga clic aquí</string>
+    <string name="button_reset">Reiniciar</string>
+</resources>
